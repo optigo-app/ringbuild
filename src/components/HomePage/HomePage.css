@@ -1,0 +1,104 @@
+.banner_image{
+    object-fit: cover;
+    width:100%;
+    height: auto;
+}
+
+.ring_container_header{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: stretch;
+    /* gap:1%; */
+    flex-wrap: wrap;
+    /* margin: 2%; */
+    /* width:100%;
+    height:100% */
+    width: 100%;
+}
+.ring_container{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+.ring_images_tag{
+    width:100%;
+    height:100%
+}
+/* .thumb_image_selected{
+    height:75px;
+    width: 75px;
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+} */
+
+/* @media screen and (max-width:1821px) {
+    .ring_images_tag{
+        width:400px;
+        height:400px
+    }
+}
+
+@media screen and (max-width:1645px) {
+    .ring_images_tag{
+        width:350px;
+        height:350px
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .ring_images_tag{
+        width:300px;
+        height:300px
+    }
+}
+@media screen and (max-width:1240px) {
+    .ring_images_tag{
+        width:250px;
+        height:250px
+    }
+}
+@media screen and (max-width:1150px) {
+    .ring_images_tag{
+        width:235px;
+        height:235px
+    }
+} */
+ .colorStones{
+        color: #c8c8c8 !important;
+        }
+
+@media(max-width: 1024px){
+    .colorStones{
+        font-size: 12px !important;
+        color: #c8c8c8 !important;
+        text-align: center;
+        }
+        .box_Price{
+            font-size: 17px !important;
+            font-weight: 900 !important;
+        }
+        .box_design{
+            font-size: 12px !important;
+            color: #979797 !important;
+        }
+}
+
+@media screen and (max-width:864px) {
+    .box-text{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:648px) {
+    .box-text{
+        font-size: 8px;
+    }
+}
+
+@media(max-width: 500px){
+    .colorStones{
+        display: none;
+        }
+}

@@ -1,0 +1,237 @@
+.ring_image{
+    object-fit:cover;
+    width: 75px;
+    height:75px;
+    background: hsl(215, 68%, 55%);
+    border-radius:8px;
+    position:relative;
+    z-index:1
+}
+
+iframe#webpack-dev-server-client-overlay{display:none!important}
+
+.item_detail_section{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.ring_images{
+    display:flex;
+    width:48%;
+    height:auto;
+    flex-wrap:wrap;
+    order:1
+}
+
+.ring_customize_options{
+    width:52%;
+    order:2
+}
+
+
+.buildnumber{
+   font-size:20px;
+   font-weight: bold;
+   margin-top: 12px;
+   color:#808080;
+   display: flex;
+   justify-content: center;
+   font-family:  sans-serif;
+}
+
+.thumbImgDiv{
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    gap: 2px;
+    z-index:1;
+}
+
+.makeitpersonal{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:15px
+}
+
+.makeitpersonal-input{
+    display:flex;
+    justify-content: center;
+    gap:60px
+}
+
+.designEng{
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+
+.form-box-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.form-box-1-input{
+    border: 1px solid gray;
+    outline-color: #1976d2;
+    height: 35px;
+    width: 295px;
+    border-radius: 8px;
+    font-size: 18px;
+    padding-right:92px;
+    padding-left: 15px;
+}
+
+.outer-modal3d{
+    width:750px;
+    height:750px
+}
+
+.inner-modal3d{
+    height:700px;
+    width:750px
+}
+
+.choose-style{
+    color:#3C7FDA; 
+    font-family:sans-serif
+}
+.ringtext{
+    margin-top: 2px;
+}
+
+.pop-up-error{
+    display: inline-block;
+    padding: 20px 40px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+    pointer-events: all;
+    /* background-color: '#f44336'; */
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); */
+
+}
+
+@media screen and (max-width:1024px) {
+    .ringtext{
+        margin-top: 32px;
+    }
+}
+
+@media screen and (max-width:1828px) {
+    .outer-modal3d{
+        width:500px;
+        height:500px
+    }
+    .inner-modal3d{
+        height:500px;
+        width:550px
+    }
+}
+
+@media screen and (max-width:1396px) {
+    .outer-modal3d{
+        width:450px;
+        height:450px
+    }
+    .inner-modal3d{
+        height:400px;
+        width:450px
+    }
+}
+
+
+
+@media screen and (max-width:830px) {
+    .makeitpersonal-input{
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width:500px;
+        gap:60px
+    }
+}
+
+@media screen and (max-width:768px) {
+    .makeitpersonal{
+        margin-top: 30px;
+    }
+}
+
+
+
+@media screen and (max-width:1205px){
+    .ring_images{
+        display:flex;
+        width:606px;
+        height: auto;
+        flex-wrap:wrap;
+        order:1
+    }
+    
+    .ring_customize_options{
+        width:600px;
+        order:2
+    } 
+
+    .thumbImgDiv{
+        height: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        gap: 2px;
+        z-index:1;
+    }
+}
+
+@media screen and (max-width:1205px) {
+    .ring_customize_options{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .outer-modal3d{
+        width:100vw;
+        height:70vh
+    }
+    .inner-modal3d{
+        height:70vh;
+        width:100vw
+    }
+}
+
+@media screen and (max-width:1407px){
+    .buildnumber{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .form-box-1{
+        display: flex;
+        flex-direction: column;
+        gap:30px
+    }
+    .form-box-1-input{
+        border: 1px solid gray;
+        outline-color: #1976d2;
+        height: 35px;
+        width: 100%;
+        border-radius: 8px;
+        font-size: 18px;
+        padding-right:92px;
+        padding-left: 15px;
+    }
+}
+
+/* @media screen and (max-width:1828px){
+    
+} */
+
